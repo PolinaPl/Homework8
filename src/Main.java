@@ -57,8 +57,7 @@ public class Main {
             if (weight[i] % 2 != 0) {
                 weight[i] += 1;
             }
-            System.out.print(weight[i] + " ");
         }
-
+        System.out.println(Arrays.toString(weight));
     }
 }
